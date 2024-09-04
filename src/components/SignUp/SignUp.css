@@ -1,0 +1,125 @@
+/* Container for the entire register page */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Gradient background */
+  }
+  
+  /* Form container styling */
+  .register-form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  /* Title styling */
+  .register-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  /* Input group container */
+  .register-input-group {
+    margin-bottom: 25px;
+  }
+  
+  /* Label styling */
+  .register-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #34495e;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Input field styling */
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .register-input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Container for the input field and toggle icon */
+  .register-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust padding to make space for the icon */
+  .register-input-wrapper .register-input {
+    padding-right: 45px;
+  }
+  
+  /* Toggle icon styling */
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .password-toggle img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Select field styling */
+  .register-select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  /* Button styling */
+  .register-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .register-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .register-form-container {
+      padding: 20px;
+    }
+  }
+  

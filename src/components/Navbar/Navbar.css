@@ -1,0 +1,45 @@
+/* Navbar Container Styling */
+.navbarContainer {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(58, 85, 101);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+  
+  /* Logo Styling */
+  .Logo {
+    color: azure;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  /* Navbar Links Styling */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+  }
+  
+  /* Navbar Link Styling */
+  .navbar-link {
+    color: azure;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Account Icon Styling */
+  .account {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
